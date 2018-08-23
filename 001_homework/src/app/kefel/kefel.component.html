@@ -1,0 +1,36 @@
+
+<table border="1">
+  
+  <tr>
+  
+      <th>
+        0
+      </th>
+      
+      <!--  headers th of  the arr horizantal -->
+      <th *ngFor="let numbers of kefelTable"> 
+        {{numbers}}
+      </th>
+
+  </tr>
+
+
+  <!-- doing table row write number and calculate the kefel, after one loop is over he will break line and go to the next number in the arr until the end   -->
+    <tr *ngFor="let numbers of kefelTable, let i = index"> <!-- outer loop -->
+
+      <th>
+        {{numbers}}
+      </th>
+
+      <!-- -->
+      <td *ngFor="let numbers of kefelTable"> <!-- inner loop -->
+       {{numbers*(i+1)}}    <!-- index=0 that the reason i do plus one -->
+      </td>
+
+    </tr>
+
+
+</table>
+
+
+
