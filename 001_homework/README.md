@@ -1,4 +1,4 @@
-# Multiplication homework And Show Jason obj of an arr in lists
+# Multiplication homework + Show Jason obj of an arr in lists.
 
 
 
