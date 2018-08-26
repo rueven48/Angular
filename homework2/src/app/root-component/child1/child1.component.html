@@ -1,0 +1,19 @@
+
+
+
+<h2>Movie list</h2>
+
+
+<ol>
+
+  <li *ngFor="let o of movies,let i=index"  (click)="onClick(o)" >
+    
+  {{o.movie_name}}
+    
+
+  </li>
+
+
+
+
+</ol>

@@ -1,0 +1,27 @@
+
+
+
+   <div *ngIf="selected_movie;">
+
+      <h1>Selected Movie: {{selected_movie.movie_name}}</h1>
+    
+      <table>
+        <tr>
+          <th>
+            Price:
+          </th>
+          <th>
+            Date:
+          </th>
+        </tr>
+        <tr>
+          <th>
+            {{selected_movie.price}}
+          </th>
+          <th>
+            {{selected_movie.movie_date}}
+          </th>
+        </tr>
+      </table>
+    
+    </div>

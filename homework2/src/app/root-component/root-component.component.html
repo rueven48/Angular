@@ -1,0 +1,7 @@
+
+<!-- parent getting obj from child1 -->
+<app-child1 (outPutToParent)="getMovie($event)"></app-child1> 
+
+<!-- parent sending obj to child2 -->
+<app-child2 [selected_movie]="selected_movie"></app-child2>
+
