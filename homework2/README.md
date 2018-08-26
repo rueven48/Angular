@@ -2,4 +2,5 @@
 
 ## child1 to parent and then parent to child2
 
-i[picture]C:\Users\cohen\Desktop\movie.png
+![movie](https://user-images.githubusercontent.com/40452887/44630341-4a1c6a00-a964-11e8-994e-72393489d22a.png)
+
