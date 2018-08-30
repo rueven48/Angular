@@ -1,0 +1,12 @@
+
+
+  <ol>
+
+  <li *ngFor="let article of articleLists, let i = index">
+    
+    <a href="#" (click)="sendChosenArticleIndexToService(i)">{{article.article_type}}</a>
+
+  </li>
+
+</ol>
+
