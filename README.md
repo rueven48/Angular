@@ -1,2 +1,2 @@
 # Angular
-## Angular table of users.
+## Homework table of users.
